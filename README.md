@@ -206,3 +206,4 @@ Specifically, the following choices have been engineered as follow
 * Redirect to a ["data" URL](https://www.rfc-editor.org/rfc/rfc2397#section-2) to prevent DNS resolution and other extensions interference
 * Return `Private-Token-Client-Replay: <requestID>` on every request due to the inability to dynamically append headers to responses in MV3
 * Use a pull based method to ease implementation on the extension and origin side
+
